@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="bacana.css">
+</head>
+
+<div>
+   
+    <div class="container">
+    <div id="paleta-cor-linha">
+        <div class="botao-cor" style="background-color: rgb(0, 0, 0);" onclick="definirCorLinha('black')"></div>
+        <div class="botao-cor" style="background-color: white;" onclick="definirCorLinha('white')"></div>
+        <div class="botao-cor" style="background-color: rgb(111, 211, 255);" onclick="definirCorLinha('blue')"></div>
+        <div class="botao-cor" style="background-color: rgb(150, 255, 147);" onclick="definirCorLinha('green')"></div>
+        <button onclick="ativarModoPreenchimento()"><img src="balde muito bacana.png" alt="balde de preenchimento" class="balde"></button>
+        </div><canvas id="canvas" width="900" height="700"></canvas>
+        <!-- adicione mais cores de linha conforme necessário -->
+    </div>
+    </canvas>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

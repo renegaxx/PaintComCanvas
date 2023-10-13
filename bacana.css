@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/93/23/bb/9323bbe5098ea78f1f4aee5a0dc4b000.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botao-cor {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    
+}
+.balde {
+    object-fit: cover;
+    object-position: 5px 5px;
+    width: 30px;
+}
+.paleta-cor-linha {
+    display: flex;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    border: 1px solid #000; /* Adicione uma borda ao canvas para visualização */
+    /* Outros estilos do canvas aqui */
+}
